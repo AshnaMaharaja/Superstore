@@ -63,8 +63,8 @@ Bar Chart: Quantity Sold by City→ NYC, LA, and Philadelphia lead in volume sol
 
 # 5. Tools Used
 
-SQL (MySQL) – For data aggregation and transformation
-Power BI – For interactive and visual analytics
+SQL (MySQL) – For data aggregation and transformation, 
+Power BI – For interactive and visual analytics, 
 Excel – For initial data formatting and import
 
 
