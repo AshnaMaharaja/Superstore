@@ -51,6 +51,7 @@ i) Quantity vs Sales per Product
 Insight: Quantity sold does not always mean high revenue — some items are low-value bulk sales.
 
 CODE:
+
 SELECT Region,ROUND(SUM(Sales), 2) AS Total_Sales,ROUND(SUM(Profit), 2) AS Total_Profit FROM superstore GROUP BY Region ORDER BY Total_Sales DESC;
 
 SELECT 'Product Name',SUM(Quantity) AS Total_Quantity_Sold,ROUND(SUM(Sales), 2) AS Total_Sales FROM superstore GROUP BY 'Product Name' ORDER BY Total_Quantity_Sold DESC LIMIT 10;
