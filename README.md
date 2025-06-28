@@ -1,18 +1,18 @@
 # Superstore Sales Analytics Report
 
- Dashboard Snapshot
+ # Dashboard Snapshot
 
 
 ![ss1](https://github.com/user-attachments/assets/60bc13f9-4629-4627-808a-4f009557a14d)
 
 
 
-#1. Introduction
+# 1. Introduction
 
 This project demonstrates business analytics using SQL and Power BI on the "Superstore" dataset. The objective is to explore patterns in sales,
  profit, and customer behavior to derive actionable insights.
 
-#2. Dataset Overview
+# 2. Dataset Overview
 
 The dataset contains:
    >>Orders and shipping details (Order Date, Ship Mode)
@@ -50,7 +50,7 @@ Insight: Sales and profits have a positive correlation, but some products sell w
 i) Quantity vs Sales per Product
 Insight: Quantity sold does not always mean high revenue — some items are low-value bulk sales.
 
-#4. Power BI Dashboard Walkthrough
+# 4. Power BI Dashboard Walkthrough
 
 🔷 Visuals & Interpretation:
 
@@ -61,14 +61,14 @@ Bar Chart: Total Profit and Sales by Region→ West and East dominate in both me
 Tree Map: Sales by Sub-Category and Category→ Phones and Chairs (Technology and Furniture) top the sales chart.
 Bar Chart: Quantity Sold by City→ NYC, LA, and Philadelphia lead in volume sold, highlighting key markets.
 
-#5. Tools Used
+# 5. Tools Used
 
 SQL (MySQL) – For data aggregation and transformation
 Power BI – For interactive and visual analytics
 Excel – For initial data formatting and import
 
 
-#6. Conclusion
+# 6. Conclusion
 
 This analysis highlights the importance of combining SQL and Power BI for business intelligence. It uncovers hidden patterns in sales performance, customer behavior, and product profitability that can be used to guide strategic decisions.
 
